@@ -1,0 +1,83 @@
+footer {
+  background: #070300;
+  .visuali_hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  .footer_t {
+    background-image: url(./../img/underground-2.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+    min-height: 900px;
+    .footer_text {
+      position: relative;
+      left: 15px;
+      top: 315px;
+      font-size: 50px;
+      text-align: center;
+      font-family: "Mr Dafoe", cursive;
+      color: bisque;
+    }
+    .footer-bottom {
+      padding-top: 610px;
+      // padding-bottom: 51px;
+    }
+    .footer__nav {
+      font-size: 14px;
+      
+      a{
+        color: aliceblue;
+        &:hover{
+          color:rgb(126, 126, 126) ;
+          transition: color 0.2s ease-in;
+        }
+      }
+    }
+      .footer__grid {
+        display: flex;
+        justify-content: center;
+        gap: 170px;
+        padding-left: 150px;
+      }
+      .footer__logo {
+        margin-top: -1px;
+      }
+      .footer-nav__list {
+        font-size: 14px;
+        display: grid;
+        gap: 15px;
+        color: aliceblue;
+
+
+        .link-bold{
+          color: rgb(126, 126, 126);
+          &:hover{
+            color:bisque ;
+          }
+        }
+        .phone-link{
+          color: rgb(126, 126, 126);
+          &:hover{
+            color:bisque ;
+          }
+        }
+      }
+      .footer__socials{
+        display: flex;
+        align-items: center;
+        column-gap: 22px;
+        margin-top: 10px;
+      }
+    }
+  
+}

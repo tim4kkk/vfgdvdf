@@ -1,0 +1,22 @@
+// @media (max-width:1390) {
+//     .header{
+//         width: 1000px;
+//         background-repeat: no-repeat;
+//     }
+   
+// }
+
+
+// HEADER
+@media screen  and (max-width:1140px){
+    .header {
+        background: url(./../img/header/cover-forest.jpg);
+        background-clip: border-box;
+    }
+}
+@media screen  and (max-width:900px){
+    .header{
+        background: url(./../img/header/cover-forest.jpg);
+        
+    }
+}

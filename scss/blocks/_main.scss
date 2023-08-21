@@ -1,0 +1,48 @@
+main{
+   
+    // .visuali_hidden{
+    //     position: absolute;
+    //     width: 1px;
+    //     height: 1px;
+    //     margin: -1px;
+    //     border: 0;
+    //     padding: 0;
+        
+        
+    //     white-space: nowrap;
+    //     clip-path: inset(100%);
+    //     clip: rect(0 0 0 0);
+    //     overflow: hidden;
+        
+    // }
+    .forest_inf{ 
+        background: url(./../img/main/Forest\ road\ by\ Sandra\ Seitamaa\ [3840x2160]\ 1.png);
+        background-position: bottom ;
+        background-repeat: no-repeat;
+        min-height: 800px;
+        
+        .inform_main h1{
+            display: flex;
+            font-family: $font-main;
+            font-size: 40px;
+            right: 250px;
+            color: $nav-text;
+            position: relative;
+            top: 100px;
+            font-weight: 500;
+            text-align: left;
+        }
+
+        .text__video{
+            display: flex;
+            font-family: $font-main;
+            font-size: 30px;
+            left: 800px;
+            color: $nav-text;
+            position: relative;
+            bottom: 180px;
+            font-weight: 500;
+            text-align: left;
+        }
+    }
+}

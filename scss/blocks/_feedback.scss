@@ -1,0 +1,43 @@
+.feedback{
+   padding-bottom: 20px;
+   padding-top: 50px;
+   .title-2{
+    color: rgb(46, 30, 1);
+   }
+}
+.feedback__title{
+margin-bottom: 20px;
+}
+form{
+    // .feedback__form 
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 30px;
+        align-items: center;
+    
+    .form__privacy-footer{
+        font-size: 13px;
+        color: rgb(151, 151, 151);
+    }
+    .form_footer-input{
+    height: 50px;
+    padding: 12px;
+    text-align: center;
+    background-color: rgba(82, 82, 82, 0.507);
+    color: white;
+    font-size: 14px;
+    
+    &::placeholder{
+        color: rgb(95, 95, 95);
+    }
+    }
+    .form__buttom-footer{
+        height: 50px;
+        text-align: center;
+        font-size: 14px;
+        color: rgb(172, 172, 172);
+        padding: 12px;
+        background-color: rgba(136, 136, 136, 0.61);
+    }
+    
+}

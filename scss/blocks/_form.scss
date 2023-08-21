@@ -1,0 +1,47 @@
+.form_main{
+    height: 40px;
+    padding: 9px;
+    margin: 3px;
+    // transform: translate(25%,0);
+    text-align: center;
+    background-color: rgba(82, 82, 82, 0.507);
+    color: rgb(255, 255, 255);
+    transition: background-color 0.2s ease-in;
+
+    &::placeholder{
+        color: rgb(95, 95, 95);
+    }
+
+    &:focus{
+        background-color: rgb(65, 65, 65);
+    }
+    &:hover{
+        background-color: saturate( rgba(121, 121, 121, 0.507), 5%);
+    }
+}
+
+.form__privacy{
+    font-size: 8px;
+    color: rgb(151, 151, 151);
+    margin-bottom: 2px;
+    
+
+}
+
+.form__buttom{
+    height: 50px;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(172, 172, 172);
+    
+    padding: 12px;
+    font-weight: 500;
+   
+    background-color: rgba(136, 136, 136, 0.61);
+    // transform: translate(445%,0);
+
+    &:hover{
+        background-color: saturate( rgb(156, 156, 156) , 5%);
+        color: rgb(255, 255, 255);
+    }
+}

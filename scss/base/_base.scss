@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+//font-family: 'Abril Fatface', cursive;
+
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+//font-family: 'Merriweather', serif;
+
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap");
+//font-family: 'PT Serif', serif;
+
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@800&display=swap");
+//  font-family: 'Cinzel', serif;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+// font-family: 'Mr Dafoe', cursive;
+ 
+
+body {
+  font-family: $font-header;
+  // background-color: $dark;
+  color: $text-headlines;
+  font-size: 30px;
+  overflow-x: hidden;
+}
+
+a {
+  transform: color 0.2s ease-in;
+  color: $text-headlines;
+
+  &:hover {
+    color: $nav-text;
+  }
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1140px;
+
+  
+}
+
+.container-right{
+  margin: 0 auto;
+  padding: 0  400px;
+  min-width: 500px;
+}
+
